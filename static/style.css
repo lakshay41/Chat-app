@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #a8dadc;
+}
+#chat {
+    width: 50%;
+    margin: 50px auto;
+    height: 70vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: none;
+    margin-bottom: 0px;
+    background-image: url(img.png);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#login {
+    width: 50%;
+    margin: 250px auto;
+}
+#inp {
+    height: 40px;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+#login-inp {
+    width: 75%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    display: block;
+    margin: 1px auto;
+    background-color: #a8dadc;   
+}
+
+#login-inp:focus {
+    background-color: #a8dadc;
+}
+
+
+/* #btn {
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: darkgreen;
+    color: #ccc;
+ 
+    
+    
+} */
+#login-btn {
+    padding: 13px;
+    border-radius: 15px;
+    background-color: #006d77;
+    color: #ccc;
+    margin: 40px auto;
+    display: block;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    
+}
+
+
+#inpdiv {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: none;
+}
+
+h1 {
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+    text-align: center;
+    margin-top: 35px;
+    color: #264653;
+    font-size: 2.7rem;
+}
+
+#all {
+    
+    background-color:#ffffff;
+    max-width: 60%;
+    border-radius: 5px 7px 7px 0px;
+    margin: 4px;
+    margin-right: 0px;
+}
+#mep {
+    padding: 6px;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+#allp {
+    padding: 6px;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+#me {
+    width: 60%;
+    background-color:#daf7c1;
+    border-radius: 7px 5px 0px 7px;
+    margin: 4px;
+    margin-right: 2px;
+    transform: translateX(63%);
+
+
+}
+strong {
+    color:teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7rem;
+    margin-top: -0.5px;
+}
